@@ -1,0 +1,29 @@
+.DiaryM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DiaryText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button{
+    display: flex;
+    margin-left: 1125px;
+    align-items: center;
+}
+.TitleBox{
+    margin: 10px 0 0 10px;
+}
+
+.Line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

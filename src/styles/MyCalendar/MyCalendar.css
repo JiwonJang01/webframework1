@@ -1,0 +1,41 @@
+/* .calendarContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+} */
+/* .calendar {
+  width: 100%;
+  display: flex;
+} */
+
+.calendarContainer {
+  padding-top: 20px;
+}
+
+#wrap > section {
+  width: 100%;
+  /* border: 1px solid rgba(0, 0, 0, 0.25); */
+  /* border-radius: 16px; */
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.fc-toolbar-title {
+  font-weight: bold;
+}
+
+.fc-day a {
+  color: black;
+  text-decoration: none;
+}
+
+.fc-day-sun a {
+  color: red;
+  text-decoration: none;
+}
+
+.fc-day-sat a {
+  color: blue;
+  text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.bgContainer {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+
+.bgtag {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 0.1s ease;
+}
+
+@media (max-width: 1000px) {
+  .bgContainer {
+    position: absolute;
+  }
+}

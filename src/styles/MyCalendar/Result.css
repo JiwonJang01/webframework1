@@ -1,0 +1,113 @@
+aside {
+  padding: 14px 14px;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+aside p {
+  flex: 1;
+  text-align: center;
+}
+aside .results {
+  display: flex;
+  width: 100%;
+}
+
+.results .space {
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.modifyAll {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 10px 5px 10px 8px;
+  box-sizing: border-box;
+}
+
+h4 {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.modifyHeader {
+  margin-bottom: 20px;
+  /*width: 232px;*/
+}
+
+.expenditure { /* 지출이 예산의 절반도 안될 때 */
+  color: #63beff;
+  text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+}
+
+.half { /* 지출이 예산의 절반일 때 */
+  color: #fa9c89;
+  text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+}
+
+.beware { /*지출이 예산보다 작지만 지출이 예산의 절반 이상일 때*/
+  color: #fc603d;
+  text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+}
+
+.same { /* 지출과 예산이 같을 때 */
+  color: #f92e00;
+  text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+}
+
+.warning { /*지출이 예산보다 클 때*/
+  color: #ab0000;
+  font-weight: bold;
+  text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+}
+
+.informationMessage {
+  font-size: 15px;
+  color: #1f7bfd;
+  background-color: rgb(247, 239, 131);
+  display: inline-block;
+}
+
+.modify.modifyModal {
+  display: flex;
+  align-items: center;
+  /* 팝업이 열릴때 스르륵 열리는 효과 */
+  animation: modal-bg-show 0.3s;
+}
+@keyframes modal-show {
+  from {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+@keyframes modal-bg-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.editPackage {
+  margin-left: 6%;
+}
+
+.editPackage button {
+  margin-top: 10px;
+  margin-left: 130px;
+}

@@ -1,0 +1,42 @@
+.register label {
+  font-size: 21px;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+  margin-top: 20px;
+  width: 50px;
+  /* margin-left: 30px; */
+  display: block;
+}
+.register div label {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  margin-right: 0px;
+  width: 50px;
+  display: block;
+}
+.register hr {
+  width: 80%;
+  margin-left: 30px;
+}
+.register textarea {
+  margin-top: 10px;
+}
+.register select {
+  margin-top: 10px;
+}
+.register div input {
+  margin-top: 20px;
+}
+.register textarea {
+  vertical-align: middle;
+}
+.register .emotion {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.register .emotion input {
+  margin-top: 0;
+}

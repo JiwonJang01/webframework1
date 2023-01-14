@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Gaegu", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#wrap {
+  min-height: 100vh;
+  display: flex;
+  transition: all 0.3s ease;
+  padding: 0 1rem 0 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  #wrap {
+    flex-direction: column;
+  }
+}
+
+.calendarContainer {
+  width: 50%;
+}
+@media (max-width: 1000px) {
+  .calendarContainer {
+    width: 100%;
+  }
+}
+
+.mainbtn {
+  height: 25px;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.mainbtn:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,31 @@
+.AccountListItem {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.AccountListItem > div {
+  margin: 0 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AccountListItem .type {
+  width: 100px;
+}
+.AccountListItem .price {
+  width: 300px;
+}
+.AccountListItem .usage {
+  width: 50px;
+}
+.AccountListItem .emotion {
+  width: 50px;
+}
+.AccountListItem .details {
+  width: 30px;
+  cursor: pointer;
+}
